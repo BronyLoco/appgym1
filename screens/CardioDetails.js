@@ -44,12 +44,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: '#f0f0f0',
+    backgroundColor: 'black', // Fondo de la ventana en negro
   },
   activityBox: {
     marginBottom: 20,
     borderRadius: 10,
     overflow: 'hidden',
+    borderWidth: 2,
+    borderColor: 'orange', // Borde naranja alrededor de cada caja de actividad
   },
   activityImage: {
     width: '100%',
@@ -60,13 +62,14 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   textOverlay: {
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    backgroundColor: 'rgba(0, 0, 0, 0.7)', // Ajuste del fondo de la superposición de texto para mayor visibilidad
     padding: 10,
   },
   activityName: {
     fontSize: 18,
-    color: 'white',
+    color: 'orange', // Texto en naranja
     fontWeight: 'bold',
+    textAlign: 'center', // Centrar el texto
   },
 });
 
